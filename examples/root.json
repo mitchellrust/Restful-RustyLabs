@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0.12345",
+    "_links": {
+        "profile": [
+            {
+                "href": "https://rustylabs.net/profiles/root"
+            }
+        ],
+        "self": {
+            "href": "https://rustylabs.net"
+        },
+        "hal:browser": {
+            "href": "https://rustylabs.net/hal-browser/browser.html#https://rustylabs.net/"
+        },
+        "rl:services": [
+            {
+                "href": "https://jellyfin.rustylabs.net",
+                "name": "jellyfin"
+            },
+            {
+                "href": "https://jellyseer.rustylabs.net",
+                "name": "jellyseer"
+            }
+        ],
+        "rl:home": {
+            "href": "https://rustylabs.net/home"
+        }
+    },
+    "_embedded": { }
+}
